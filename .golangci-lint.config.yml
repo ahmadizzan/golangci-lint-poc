@@ -1,0 +1,12 @@
+linters-settings:
+  gofmt:
+    simplify: true
+linters:
+  disable-all: true
+  enable:
+    - gofmt
+run:
+  # default concurrency is a available CPU number
+  concurrency: 4
+  # timeout for analysis, e.g. 30s, 5m, default is 1m
+  timeout: 1m
